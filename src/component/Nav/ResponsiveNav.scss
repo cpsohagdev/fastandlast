@@ -1,36 +1,32 @@
-@media (max-width : 1240px) {
-    
-    .searchber-menu{
-        .menu{
-            display: none;
-        }
-        width: 100px !important;
+@media (max-width: 1270px) {
+  .searchber-menu{
+      align-items: center;
+      justify-content: center;
+      form{
+          width: 600px !important;
+         transition: .3s linear;
+      }
+  }
+  
+    .searchber-menu {
+    .menu {
+      display: none;
     }
-   
-}
-@media (max-width : 1070px) {
-
-    .nav-wraper{
-       padding: 0;
-    }
-    .searchber-menu{
-        display: none !important;
-    }
-   .content{
-       display: none;
-   }
-    .responsiveVew{
-        display: block;
-    }
-    
-    
-   
-}
-
-@media (max-width : 446px){
-  .logo {
-  img {
-    width: 150px;
+    width: 100px !important;
   }
 }
+@media (max-width: 1070px) {
+  .nav-wraper {
+    padding: 0;
+  }
+  .searchber-menu {
+    display: none !important;
+  }
+  .content {
+    display: none;
+  }
+  .responiveIconsWrapper {
+      display: flex !important;
+    display: block;
+  }
 }

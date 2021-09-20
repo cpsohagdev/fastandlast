@@ -21,7 +21,22 @@ const Nav = () => {
           <div className="logo">
             <img src={logo} alt="Logo" />
           </div>
-
+          <div className="responiveIconsWrapper">
+            <div className="responsiveVew">
+              <span>
+                <MdChatBubbleOutline />
+              </span>
+              <span>
+                <BsFillCameraVideoFill />
+              </span>
+              <span>
+                <FiSearch />
+              </span>
+            </div>
+            <div>
+              <BiMenuAltRight className="menuBericons" />
+            </div>
+          </div>
           <div className="searchber-menu">
             <form action="#">
               <input type="text" placeholder="Type to search" />
@@ -66,12 +81,6 @@ const Nav = () => {
             <a href="/">
               <img className="profile" src={profle} alt="" />
             </a>
-          </div>
-          <div className="responsiveVew">
-            <span><MdChatBubbleOutline /></span>
-            <span><BsFillCameraVideoFill /></span>
-            <span><FiSearch /></span>
-            <small><BiMenuAltRight /></small>
           </div>
         </div>
       </div>
