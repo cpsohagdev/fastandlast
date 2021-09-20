@@ -18,6 +18,8 @@ function App() {
           Learn React
         </a>
         <h1>MD SOHAG HOSSAIN</h1>
+        <h2>Nick Name : My name is Sohag</h2>
+        <h2>finaly complite</h2>
       </header>
     </div>
   );
