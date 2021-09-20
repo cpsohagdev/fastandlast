@@ -30,3 +30,37 @@
     display: block;
   }
 }
+@media (max-width: 444px) {
+ .nav-wraper{
+     padding: 0 !important;
+ }
+ .container-flued{
+     padding: 0 !important;
+ }
+ .logo {
+  img {
+    width: 150px;
+  }
+}
+
+}
+@media (max-width: 325px) {
+.responiveIconsWrapper{
+ 
+  span{
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px  !important;
+  }
+  
+}
+.menuBericons{
+    font-size: 30px !important;
+    line-height: 100px;
+  }
+}
