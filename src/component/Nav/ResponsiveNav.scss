@@ -1,0 +1,36 @@
+@media (max-width : 1240px) {
+    
+    .searchber-menu{
+        .menu{
+            display: none;
+        }
+        width: 100px !important;
+    }
+   
+}
+@media (max-width : 1070px) {
+
+    .nav-wraper{
+       padding: 0;
+    }
+    .searchber-menu{
+        display: none !important;
+    }
+   .content{
+       display: none;
+   }
+    .responsiveVew{
+        display: block;
+    }
+    
+    
+   
+}
+
+@media (max-width : 446px){
+  .logo {
+  img {
+    width: 150px;
+  }
+}
+}

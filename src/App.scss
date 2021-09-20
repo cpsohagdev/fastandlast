@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+
+@import './Color.scss' ; 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: ($secondary) !important;
+    font-family: 'Open Sans', sans-serif !important;
+    color: white !important;
+}
+
+
+
+
+
+
+//  <div className="row">
+//             <div className="col-lg-4">
+//               <div className="logo">
+//                 <img src={logo} alt="Logo" />
+//               </div>
+//             </div>
+//             <div className="col-lg-4">
+//               <div className="searchber-menu">
+//                 <form action="#">
+//                   <input type="text" placeholder="Type to search" />
+//                 </form>
+//                 <a href="/">
+//                   <AiOutlineHome />
+//                 </a>
+//                 <a href="/">
+//                   <RiFlashlightLine />
+//                 </a>
+//                 <a href="/">
+//                   <BsFillCameraVideoFill />
+//                 </a>
+//                 <a href="/">
+//                   <RiUser3Line />
+//                 </a>
+//                 <a href="/">
+//                   <FiShoppingBag />
+//                 </a>
+//               </div>
+//             </div>
+
+//             <div className="col-lg-4">
+//               <div className="content">
+//                 <a href="/">
+//                   <GrNotification />
+//                 </a>
+//                 <a href="/">
+//                   <MdChatBubbleOutline />
+//                 </a>
+//                 <a href="/">
+//                   <BiMoon />
+//                 </a>
+//               </div>
+//             </div>
+//           </div>  
