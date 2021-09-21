@@ -1,0 +1,45 @@
+@import "../../Color.scss";
+
+.New-Feeds {
+  width: 80%;
+  margin: auto;
+  
+  a{
+      text-decoration: none;
+      color: ($darkWhite);
+      font-size: 15px;
+  }
+  div {
+    margin: 5px 0;
+  }
+
+  .new-feed-hading {
+    color: ($darkWhite);
+  }
+
+  span {
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .icon1 {
+    background-image: linear-gradient(to left,#032282 ,#0572e3 );
+  }
+  .icon2 {
+    background-image: linear-gradient(to left,#E54E26 ,#F06328 );
+  }
+  .icon3 {
+    background-image: linear-gradient(to left,#F2A04A ,#F2C24C );
+  }
+  .icon4 {
+    background-image: linear-gradient(to left,#EF106F ,#FD5F0F );
+  }
+  .icon5 {
+    background-image: linear-gradient(to left,#0060FF ,#008BFF );
+  }
+}

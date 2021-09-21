@@ -1,0 +1,33 @@
+@import '../../Color.scss' ;
+
+.grope-siteber-page{
+    display: flex;
+}
+.navigation{
+    flex-basis: 22%;
+    height: 550px;
+    background-color: ($primary);
+    top: 200px;
+    position: sticky;
+    left: 0;
+    top: 110px;
+    overflow: scroll;
+    
+    span{
+        margin-bottom: 20px;
+    }
+    
+}
+.navigation::-webkit-scrollbar{
+    background: transparent;
+    width: 2px;
+
+}
+.navigation::-webkit-scrollbar-thumb {
+    background: ($pureWhite);
+    
+}
+
+.allpage-main-content{
+    flex-basis: 78%;
+}

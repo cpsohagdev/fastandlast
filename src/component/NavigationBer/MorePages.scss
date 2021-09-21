@@ -1,0 +1,19 @@
+@import '../../Color.scss' ;
+
+
+.More-Pages{
+    width: 80%;
+    margin: auto;
+    span{
+        margin-right: 20px;
+        font-size: 30px;
+        color: ($info);
+    }
+    div{
+        margin: 10px 0;
+        a{
+            text-decoration: none;
+            color: ($pureWhite);
+        }
+    }
+}
